@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\kuba-\Desktop\cw_podstawy_progr\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(22,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kuba-\Desktop\cw_podstawy_progr\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(26,1): error C4700: uninitialized local variable 'a' used
+C:\Users\kuba-\Desktop\cw_podstawy_progr\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(27,1): error C4700: uninitialized local variable 'b' used
+C:\Users\kuba-\Desktop\cw_podstawy_progr\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(28,1): error C4700: uninitialized local variable 'c' used
+C:\Users\kuba-\Desktop\cw_podstawy_progr\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(29,1): error C4700: uninitialized local variable 'd' used
+C:\Users\kuba-\Desktop\cw_podstawy_progr\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(30,1): error C4700: uninitialized local variable 'e' used

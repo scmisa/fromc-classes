@@ -1,0 +1,3 @@
+﻿  cwicz3.cpp
+C:\Users\kuba-\Desktop\cw_podstawy_progr\cwicz3\cwicz3\cwicz3.cpp(33,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  cwicz3.vcxproj -> C:\Users\kuba-\Desktop\cw_podstawy_progr\cwicz3\x64\Debug\cwicz3.exe

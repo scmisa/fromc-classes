@@ -1,0 +1,9 @@
+﻿  non_repeating_numbers_gen.cpp
+C:\Users\kuba-\Desktop\cw_podstawy_progr\non_repeating_numbers_gen\non_repeating_numbers_gen\non_repeating_numbers_gen.cpp(28,27): error C2131: expression did not evaluate to a constant
+      C:\Users\kuba-\Desktop\cw_podstawy_progr\non_repeating_numbers_gen\non_repeating_numbers_gen\non_repeating_numbers_gen.cpp(28,17):
+      failure was caused by a read of a variable outside its lifetime
+      C:\Users\kuba-\Desktop\cw_podstawy_progr\non_repeating_numbers_gen\non_repeating_numbers_gen\non_repeating_numbers_gen.cpp(28,17):
+      see usage of 'max'
+  
+C:\Users\kuba-\Desktop\cw_podstawy_progr\non_repeating_numbers_gen\non_repeating_numbers_gen\non_repeating_numbers_gen.cpp(30,20): error C3863: array type 'int [max-min+1]' is not assignable
+C:\Users\kuba-\Desktop\cw_podstawy_progr\non_repeating_numbers_gen\non_repeating_numbers_gen\non_repeating_numbers_gen.cpp(39,28): warning C4552: '<<': result of expression not used

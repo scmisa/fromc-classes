@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730290671 source:c:\users\kuba-\desktop\cw_podstawy_progr\nauka\main.cpp
+	<iostream>
+	<time.h>
+
