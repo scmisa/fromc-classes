@@ -122,6 +122,60 @@ string cezar(string z, int przesuniecie)
     return z;
 }
 
+string vineger(string &z, string klucz)
+{
+    for (int i = 0; z[i] != '\0'; i++)
+    {
+        if (z[i] >= 'A' && z[i] <= 'Z')
+        {
+            z[i] = (z[i] - 'A' + klucz[i % klucz.length()] - 'A') % 26 + 'A';
+        }
+        else if (z[i] >= 'a' && z[i] <= 'z')
+        {
+            z[i] = (z[i] - 'a' + klucz[i % klucz.length()] - 'A') % 26 + 'a';
+        }
+    }
+    return z;
+}
+
+string devineger(string &z, string klucz)
+{
+#define KEY klucz
+#define KEY_LEN klucz.length()
+#define KEY_CHAR(i) klucz[i % KEY_LEN]
+#define KEY_CHAR_VAL(i) (KEY_CHAR(i) >= 'A' && KEY_CHAR(i) <= 'Z' ? KEY_CHAR(i) - 'A' : KEY_CHAR(i) - 'a')
+#define KEY_CHAR_VAL_UPPER(i) (KEY_CHAR(i) - 'A')
+#define KEY_CHAR_VAL_LOWER(i) (KEY_CHAR(i) - 'a')
+#define CHAR_VAL_UPPER(c) (c - 'A')
+#define CHAR_VAL_LOWER(c) (c - 'a')
+#define CHAR_VAL(c) (c >= 'A' && c <= 'Z' ? CHAR_VAL_UPPER(c) : CHAR_VAL_LOWER(c))
+#define CHAR_VAL_MOD(c) (c >= 'A' && c <= 'Z' ? CHAR_VAL_UPPER(c) % 26 : CHAR_VAL_LOWER(c) % 26)
+#define CHAR_VAL_MOD_KEY(i, c) (c >= 'A' && c <= 'Z' ? CHAR_VAL_UPPER(c) - KEY_CHAR_VAL_UPPER(i) : CHAR_VAL_LOWER(c) - KEY_CHAR_VAL_LOWER(i))
+#define CHAR_VAL_MOD_KEY_POS(i, c) (CHAR_VAL_MOD_KEY(i, c) >= 0 ? CHAR_VAL_MOD_KEY(i, c) : CHAR_VAL_MOD_KEY(i, c) + 26)
+#define CHAR_VAL_MOD_KEY_NEG(i, c) (CHAR_VAL_MOD_KEY(i, c) < 0 ? CHAR_VAL_MOD_KEY(i, c) : CHAR_VAL_MOD_KEY(i, c) - 26)
+#define CHAR_VAL_MOD_KEY_POS_MOD(i, c) (CHAR_VAL_MOD_KEY_POS(i, c) % 26)
+#define CHAR_VAL_MOD_KEY_NEG_MOD(i, c) (CHAR_VAL_MOD_KEY_NEG(i, c) % 26)
+#define CHAR_VAL_MOD_KEY_POS_MOD_CHAR(i, c) (CHAR_VAL_MOD_KEY_POS_MOD(i, c) + 'A')
+#define CHAR_VAL_MOD_KEY_NEG_MOD_CHAR(i, c) (CHAR_VAL_MOD_KEY_NEG_MOD(i, c) + 'A')
+#define CHAR_VAL_MOD_KEY_POS_MOD_CHAR_LOWER(i, c) (CHAR_VAL_MOD_KEY_POS_MOD(i, c) + 'a')
+#define CHAR_VAL_MOD_KEY_NEG_MOD_CHAR_LOWER(i, c) (CHAR_VAL_MOD_KEY_NEG_MOD(i, c) + 'a')
+#define CHAR_VAL_MOD_KEY_POS_MOD_CHAR_FINAL(i, c) (c >= 'A' && c <= 'Z' ? CHAR_VAL_MOD_KEY_POS_MOD_CHAR(i, c) : CHAR_VAL_MOD_KEY_POS_MOD_CHAR_LOWER(i, c))
+
+    // decrypt vineger
+
+    for (int i = 0; z[i] != '\0'; i++)
+    {
+        if (z[i] >= 'A' && z[i] <= 'Z')
+        {
+            z[i] = CHAR_VAL_MOD_KEY_POS_MOD_CHAR_FINAL(i, z[i]);
+        }
+        else if (z[i] >= 'a' && z[i] <= 'z')
+        {
+            z[i] = CHAR_VAL_MOD_KEY_POS_MOD_CHAR_FINAL(i, z[i]);
+        }
+    }
+}
+
 int main()
 {
     // string zdanie1;
@@ -138,7 +192,12 @@ int main()
     // liczba_liter(zdanie);
 
     // remove_letter(zdanie, 'a');
-
+    cout << zdanie << endl;
     cout << cezar(zdanie, 10);
+    cout << endl;
+    string zaszyfrowane = vineger(zdanie, "pomidor");
+    cout << zaszyfrowane;
+    cout << endl;
+    cout << devineger(zaszyfrowane, "pomidor");
     return 0;
 }

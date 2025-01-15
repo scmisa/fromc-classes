@@ -192,21 +192,21 @@ void choinka(int wysokosc)
 }
 int main()
 {
-    // char napis[] = "Ala ma kota";
-    // na_duze(napis);
-    // na_male(napis);
-    // szyfr_cezara(napis, 3);
+    char napis[] = "Ala ma kota";
+    na_duze(napis);
+    na_male(napis);
+    szyfr_cezara(napis, 3);
     // for (char t = ' '; t <= '~'; t++)
     // {
     //     cout << t << '-' << (int)t << endl;
     // }
-    // rysuj_prostokat(5, 9);
-    // cout << endl;
-    // rys_prost_rekurencja(9, 9);
-    // cout << endl;
-    // pusty_prost(19, 19);
-    // prostokat(10, 10);
+    rysuj_prostokat(5, 9);
+    cout << endl;
+    rys_prost_rekurencja(9, 9);
+    cout << endl;
+    pusty_prost(19, 19);
+    prostokat(10, 10);
     // szachownica(10, 10);
-    choinka(10);
+    // choinka(10);
     return 0;
 }
