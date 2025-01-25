@@ -6,6 +6,8 @@
 // 5. funkcja która wypisze do pliku liczby nie parzyste większe od 50
 // 6. Funkcja ktora znajdzie w stringu podanym przez uzytkowanika, spacje i napisze na ktorym sa miejscu
 // 7. Funkcja ktora tworzy plik i dopisuje w nim tekst wprowadzony przez uzytkownika do momentu wpisania "koniec"
+// 8. Funkcja ktora odczyta z pliku slowa i policzy ktore jest najdluzsze
+// 9. Funkcja ktora odczyta z pliku liczby i zapisze je do tablicy, a nastepnie wypisze najwieksza i najmniejsza
 
 #include <iostream>
 #include <fstream>
