@@ -1,12 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\nauka1\\",
+  "WorkspaceRootPath": "F:\\fromc-classes\\cw_podstawy_progr\\nauka1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8433A170-1813-44C8-A5D5-A7D56C709A30}|..\\wektor\\wektor.vcxproj|C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\wektor\\wektor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{286951AC-8D82-43F2-9DE1-97D7E0EB19F0}|..\\ConsoleApplication4\\ConsoleApplication4.vcxproj|C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8433A170-1813-44C8-A5D5-A7D56C709A30}|..\\wektor\\wektor.vcxproj|F:\\fromc-classes\\cw_podstawy_progr\\wektor\\wektor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -15,56 +12,25 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 182,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 1577,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "wektor.cpp",
-              "DocumentMoniker": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\wektor\\wektor.cpp",
+              "DocumentMoniker": "F:\\fromc-classes\\cw_podstawy_progr\\wektor\\wektor.cpp",
               "RelativeDocumentMoniker": "..\\wektor\\wektor.cpp",
-              "ToolTip": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\wektor\\wektor.cpp",
+              "ToolTip": "F:\\fromc-classes\\cw_podstawy_progr\\wektor\\wektor.cpp",
               "RelativeToolTip": "..\\wektor\\wektor.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-17T11:53:58.792Z",
+              "WhenOpened": "2025-03-17T14:33:10.032Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsoleApplication4.cpp",
-              "DocumentMoniker": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "RelativeDocumentMoniker": "..\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "ToolTip": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "RelativeToolTip": "..\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-17T11:23:12.216Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1577,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
