@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\nauka1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8433A170-1813-44C8-A5D5-A7D56C709A30}|..\\wektor\\wektor.vcxproj|C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\wektor\\wektor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{286951AC-8D82-43F2-9DE1-97D7E0EB19F0}|..\\ConsoleApplication4\\ConsoleApplication4.vcxproj|C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -18,12 +21,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "wektor.cpp",
+              "DocumentMoniker": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\wektor\\wektor.cpp",
+              "RelativeDocumentMoniker": "..\\wektor\\wektor.cpp",
+              "ToolTip": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\wektor\\wektor.cpp",
+              "RelativeToolTip": "..\\wektor\\wektor.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T11:53:58.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ConsoleApplication4.cpp",
               "DocumentMoniker": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp",
               "RelativeDocumentMoniker": "..\\ConsoleApplication4\\ConsoleApplication4.cpp",
               "ToolTip": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp",
               "RelativeToolTip": "..\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T11:23:12.216Z",
               "EditorCaption": ""
