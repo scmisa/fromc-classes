@@ -1,0 +1,3 @@
+﻿  wektor.cpp
+C:\Users\kuba-\Desktop\PodstawyProgramowania\cw_podstawy_progr\wektor\wektor.cpp(90,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  wektor.vcxproj -> C:\Users\kuba-\Desktop\PodstawyProgramowania\cw_podstawy_progr\nauka1\x64\Debug\wektor.exe

@@ -1,35 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\nauka1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{286951AC-8D82-43F2-9DE1-97D7E0EB19F0}|..\\ConsoleApplication4\\ConsoleApplication4.vcxproj|C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
-        {
-          "DockedWidth": 182,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsoleApplication4.cpp",
-              "DocumentMoniker": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "RelativeDocumentMoniker": "..\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "ToolTip": "C:\\Users\\kuba-\\Desktop\\PodstawyProgramowania\\cw_podstawy_progr\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "RelativeToolTip": "..\\ConsoleApplication4\\ConsoleApplication4.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-17T11:23:12.216Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
         {
           "DockedWidth": 1577,
           "SelectedChildIndex": -1,
