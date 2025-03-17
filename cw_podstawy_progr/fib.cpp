@@ -7,13 +7,13 @@ void potega_i_silnia(int &silnia, int &potega);
 
 int main()
 {
+    int silnia, potega;
+    cout << "Podaj liczbe do potegowania: ";
+    cin >> potega;
+    cout << "Podaj silnie: ";
+    cin >> silnia;
 
-    for (int i = 1; i <= 100; i++)
-    {
-        cout << "Liczba: " << i << " ";
-        isPrime(i);
-        cout << endl;
-    }
+    potega_i_silnia(silnia, potega);
 
     return 0;
 }
