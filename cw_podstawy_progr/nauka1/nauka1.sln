@@ -23,6 +23,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication4", "..\C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wektor", "..\wektor\wektor.vcxproj", "{8433A170-1813-44C8-A5D5-A7D56C709A30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication5", "..\ConsoleApplication5\ConsoleApplication5.vcxproj", "{17EF562F-4BB3-4974-910C-4801E53CD7A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kolos_24.03.2025", "..\Kolos_24.03.2025\Kolos_24.03.2025.vcxproj", "{FA875E3D-AC7E-4802-98B5-372DE8327734}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +115,22 @@ Global
 		{8433A170-1813-44C8-A5D5-A7D56C709A30}.Release|x64.Build.0 = Release|x64
 		{8433A170-1813-44C8-A5D5-A7D56C709A30}.Release|x86.ActiveCfg = Release|Win32
 		{8433A170-1813-44C8-A5D5-A7D56C709A30}.Release|x86.Build.0 = Release|Win32
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Debug|x64.ActiveCfg = Debug|x64
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Debug|x64.Build.0 = Debug|x64
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Debug|x86.Build.0 = Debug|Win32
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Release|x64.ActiveCfg = Release|x64
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Release|x64.Build.0 = Release|x64
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Release|x86.ActiveCfg = Release|Win32
+		{17EF562F-4BB3-4974-910C-4801E53CD7A4}.Release|x86.Build.0 = Release|Win32
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Debug|x64.ActiveCfg = Debug|x64
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Debug|x64.Build.0 = Debug|x64
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Debug|x86.Build.0 = Debug|Win32
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Release|x64.ActiveCfg = Release|x64
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Release|x64.Build.0 = Release|x64
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Release|x86.ActiveCfg = Release|Win32
+		{FA875E3D-AC7E-4802-98B5-372DE8327734}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
