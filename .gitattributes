@@ -1,1 +1,2 @@
 /cw_podstawy_progr/nauka1/.vs filter=lfs diff=lfs merge=lfs -text
+/cw_podstawy_progr/nauka1/.vs/* filter=lfs diff=lfs merge=lfs -text
