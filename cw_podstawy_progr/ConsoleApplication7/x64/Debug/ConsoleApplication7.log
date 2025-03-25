@@ -1,0 +1,3 @@
+﻿  ConsoleApplication7.cpp
+F:\fromc-classes\cw_podstawy_progr\ConsoleApplication7\ConsoleApplication7.cpp(64,3): warning C4154: deletion of an array expression; conversion to pointer supplied
+  ConsoleApplication7.vcxproj -> F:\fromc-classes\cw_podstawy_progr\nauka1\x64\Debug\ConsoleApplication7.exe
